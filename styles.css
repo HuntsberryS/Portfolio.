@@ -1,6 +1,13 @@
+:root {
+  --headercolor: rgba(30, 30, 30, 0.8);
+  --bodycolor: rgba(217, 217, 217, 0.85);
+  --highlightcolor: #d3ba60;
+  --subsectioncolor: #eeeded;
+}
+
 .headingcontainer {
-  background: rgba(30, 30, 30, 0.8);
-  width: 100%;
+  background: var(--headercolor);
+  width: auto;
   height: auto;
   padding-bottom: 70px;
 }
@@ -9,9 +16,9 @@
   color: #fff;
   text-align: center;
   font-family: Inter;
-  font-size: 32px;
+  font-size: 40px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   line-height: normal;
 }
 
@@ -19,7 +26,7 @@
   color: #fff;
   text-align: right;
   font-family: Inter;
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -34,19 +41,18 @@
 }
 
 .bodycontainer {
-  background: rgba(217, 217, 217, 0.85);
-  width: 100%;
-  height: 600px;
+  background: var(--bodycolor);
+  width: auto;
+  height: auto;
 }
 
 .aboutmesection {
-  background: #eeeded;
-  width: 344px;
-  height: 272px;
+  background: var(--subsectioncolor);
+  height: auto;
 }
 
 footer {
-  border: 3px solid #d3ba60;
+  border: 3px solid var(--highlightcolor);
   background: rgba(217, 217, 217, 0.85);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 10px;
@@ -59,5 +65,12 @@ span {
 }
 
 .link:hover {
-  color: #d3ba60;
+  color: var(--highlightcolor);
+}
+.bodycontainer {
+  justify-content: space-evenly;
+  padding: 70px;
+}
+.logo {
+  font-size: 16px;
 }
