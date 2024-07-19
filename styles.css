@@ -74,3 +74,13 @@ span {
 .logo {
   font-size: 16px;
 }
+.projectcontainer {
+  justify-content: space-between;
+  text-align: center;
+  background-color: var(--bodycolor);
+  height: 700px;
+}
+.appphoto {
+  max-width: 280px;
+  margin-top: 50px;
+}
