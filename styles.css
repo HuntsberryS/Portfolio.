@@ -87,6 +87,10 @@ span {
   padding-bottom: 15px;
 }
 .contacticon {
-  font-size: 40px;
+  font-size: 48px;
+  padding: 15px;
+}
+
+p {
   padding: 15px;
 }
